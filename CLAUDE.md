@@ -3,6 +3,20 @@
 > 本文件由项目所有者维护。Claude Code 每次启动自动读取本文件，无需提醒。
 > 违反本文件规则的输出 = 不合格，会被打回重写。
 
+## 🚨 第零条：部署必须用全局 deploy-site 工具（硬性规则，禁止其他方式）
+
+**本站部署已全部配置好，禁止要求用户重新授权/登录，禁止用本地 wrangler 登录。**
+
+```bash
+node C:\Users\Administrator\.claude\site-deploy\deploy-site.mjs \
+  --source <本项目目录> --repo leyang866-debug/<仓库名> --domain <域名>
+```
+
+- 凭证已存在 `C:\Users\Administrator\.claude\credentials\`（Cloudflare Token/账号ID），**永远不要要求用户提供**
+- 部署自动完成：建GitHub仓库→建Worker→绑域名→GA4独立资源→GSC验证→sitemap提交
+- 此工具是唯一合法部署方式（GRAIN ROT/HLL:Vietnam 均如此部署成功）
+- 报错"Wrangler not authenticated"= 你走错路了，改用上面的 deploy-site.mjs
+
 ## 🚨 第一条：内容必须"攻略化"，禁止"笔记化"
 
 **目标读者是玩家**：他们打开页面是为了学到"怎么玩"，不是读你的资料总结。
