@@ -1,0 +1,216 @@
+{
+  "site": {
+    "name": "No More Room in Hell 2 Wiki",
+    "shortName": "NMRIH2",
+    "description": "No More Room in Hell 2 guide — weapons, perks, maps, survival mode, infection, solo training, crossplay and 1.0 updates.",
+    "tagline": "Survive, extract, and learn every run.",
+    "legalNotice": "Fan-made community resource. Not affiliated with Torn Banner Studios."
+  },
+  "nav": {
+    "home": "Home",
+    "weapons": "Weapons",
+    "maps": "Maps",
+    "perks": "Perks",
+    "survival": "Survival Mode",
+    "tips": "Tips",
+    "update": "1.0 Update",
+    "toggleTheme": "Toggle theme",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search"
+  },
+  "search": {
+    "placeholder": "Search the wiki...",
+    "noResults": "No matches found",
+    "open": "Open search"
+  },
+  "shared": {
+    "readMore": "Read Guide",
+    "lastUpdated": "Last updated",
+    "publishedOn": "Published",
+    "noArticles": "No guides available.",
+    "relatedArticles": "Related Articles",
+    "onThisPage": "On this page",
+    "backToCategory": "Back to",
+    "browseAll": "Browse Guides",
+    "viewAll": "Explore the Wiki",
+    "commentsHeading": "Comments"
+  },
+  "overview": {
+    "guides": {
+      "overviewTitle": "NMRIH2 Guides",
+      "overviewDescription": "Weapons, maps, perks, survival, infection, platforms, and Armageddon 1.0 guides for No More Room in Hell 2."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "No More Room in Hell 2 Wiki",
+      "description": "No More Room in Hell 2 guides for weapons, maps, perks, survival, infection, solo training, crossplay and the Armageddon 1.0 update."
+    },
+    "hero": {
+      "badge": "Fan-Made Community Wiki",
+      "title": "No More Room in Hell 2 Wiki",
+      "description": "Use practical guides for weapons, maps, extraction, infection, perks, Survival Mode, and Armageddon 1.0 systems.",
+      "ctaPrimary": "Explore the Wiki",
+      "ctaSecondary": "Browse Guides",
+      "videoId": "BIb-UF_k6F0"
+    },
+    "updates": {
+      "title": "Armageddon 1.0 Guides"
+    },
+    "start": {
+      "badge": "Start Here",
+      "title": "Learn the Survival Loop",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Solo Training",
+          "description": "Practice Objective and Survival maps without normal progression or permanent character loss.",
+          "icon": "lucide:circle-user-round",
+          "href": "/solo"
+        },
+        {
+          "number": "2",
+          "title": "Weapons Guide",
+          "description": "Learn firearm categories, melee roles, attachments, and community reference rankings.",
+          "icon": "lucide:crosshair",
+          "href": "/weapons"
+        },
+        {
+          "number": "3",
+          "title": "Infection Guide",
+          "description": "Recognize warning signs and understand the supplied treatment reference notes.",
+          "icon": "lucide:heart-pulse",
+          "href": "/infection"
+        },
+        {
+          "number": "4",
+          "title": "Crossplay Guide",
+          "description": "Learn which PC and console platforms can form an eight-player squad.",
+          "icon": "lucide:users",
+          "href": "/crossplay"
+        }
+      ]
+    },
+    "popular": {
+      "badge": "Browse Guides",
+      "title": "Core Topics",
+      "quickLinks": [
+        {
+          "label": "Weapons Tier List",
+          "href": "/weapons-tier-list"
+        },
+        {
+          "label": "Maps Guide",
+          "href": "/maps"
+        },
+        {
+          "label": "Survival Mode",
+          "href": "/survival-mode"
+        },
+        {
+          "label": "1.0 Update",
+          "href": "/1.0-update"
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore the Wiki",
+      "description": "Core systems and reference guides for the 1.0 launch.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Weapons Wiki",
+          "description": "Firearms, melee categories, attachments, and tier-list context.",
+          "href": "/weapons",
+          "displayType": "labeled-cards",
+          "highlights": [
+            {
+              "label": "Firearms",
+              "detail": "Noise, ammunition, and attachment handling."
+            },
+            {
+              "label": "Melee",
+              "detail": "Blunt and edged weapon reference."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Map Guides",
+          "description": "Objective maps, Survival locations, and the Broadway route reference.",
+          "href": "/maps",
+          "displayType": "labeled-cards",
+          "highlights": [
+            {
+              "label": "Objective",
+              "detail": "Six listed 1.0 Objective maps."
+            },
+            {
+              "label": "Survival",
+              "detail": "Flooded, Lighthouse, and Night maps."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Armageddon 1.0",
+          "description": "Survival Mode, Raven Rock, Solo Training, consoles, and crossplay.",
+          "href": "/1.0-update",
+          "displayType": "labeled-cards",
+          "highlights": [
+            {
+              "label": "New Modes",
+              "detail": "Survival and Solo Training."
+            },
+            {
+              "label": "New Map",
+              "detail": "Raven Rock Objective map."
+            }
+          ]
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "Plan the next extraction",
+      "description": "Read the guide that matches the part of the run your squad needs to solve.",
+      "primary": "Browse Guides",
+      "secondary": "Explore the Wiki"
+    },
+    "gameStats": [
+      {
+        "label": "Release Date",
+        "value": "2026-08-11",
+        "icon": "lucide:calendar-days"
+      },
+      {
+        "label": "Platforms",
+        "value": "PC / PS5 / Xbox",
+        "icon": "lucide:monitor-smartphone"
+      },
+      {
+        "label": "Standard Price",
+        "value": "$29.99",
+        "icon": "lucide:badge-dollar-sign"
+      },
+      {
+        "label": "Co-op Players",
+        "value": "Up to 8 Players",
+        "icon": "lucide:users"
+      }
+    ]
+  },
+  "footer": {
+    "playGame": "Official Site",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Official YouTube",
+    "officialTwitter": "Official X",
+    "officialReddit": "Official Reddit",
+    "about": "About",
+    "faq": "FAQ",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "Copyright",
+    "copyrightText": "© 2026 NMRIH2 Wiki. Fan-made, not affiliated with Torn Banner Studios."
+  }
+}

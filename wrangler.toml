@@ -1,0 +1,9 @@
+# Cloudflare Pages configuration for the NMRIH2 Wiki.
+# Deploy with: pnpm build && pnpm dlx wrangler pages deploy dist
+
+name = "nmrih2-wiki"
+compatibility_date = "2026-08-11"
+pages_build_output_dir = "dist"
+
+[vars]
+SITE_URL = "https://nomoreroominhell.online"
