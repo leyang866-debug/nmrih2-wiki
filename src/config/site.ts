@@ -65,5 +65,5 @@ export const siteUrl: string = (process.env.SITE_URL || 'https://nomoreroominhel
 );
 
 /** Set by the deployment tool when it creates this site's Google services. */
-export const ga4MeasurementId = '';
-export const googleSiteVerification = '';
+export const ga4MeasurementId = 'G-SSKH8PSJN3';
+export const googleSiteVerification = 'JIKMO4EwfeyGRel1FN0rGce3Fr0BeilWv7gvD4FtwZ4';
