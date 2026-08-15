@@ -1,9 +1,11 @@
-# Cloudflare Pages configuration for the NMRIH2 Wiki.
-# Deploy with: pnpm build && pnpm dlx wrangler pages deploy dist
+# Cloudflare Worker static-assets deployment for the NMRIH2 Wiki.
+# GitHub Actions deploys dist/ with `wrangler deploy --assets dist`.
 
 name = "nmrih2-wiki"
 compatibility_date = "2026-08-11"
-pages_build_output_dir = "dist"
+
+[assets]
+directory = "dist"
 
 [vars]
 SITE_URL = "https://nomoreroominhell.online"
